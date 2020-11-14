@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const Contact = () => {
   const email = 'mail@robertschurig.de';
 

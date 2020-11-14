@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 import { ImageGridItem } from './image-grid-item';
 import { ImageModal } from './image-modal';

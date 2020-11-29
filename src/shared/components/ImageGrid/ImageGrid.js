@@ -1,9 +1,9 @@
 import { useState } from 'react';
 
-import { ImageGridItem } from './image-grid-item';
-import { ImageModal } from './image-modal';
+import { ImageGridItem } from './ImageGridItem';
+import { ImageModal } from './ImageModal';
 
-import './index.sass';
+import './ImageGrid.sass';
 
 export const ImageGrid = ({ imageList }) => {
   const [selectedImageId, setSelectedImageId] = useState();

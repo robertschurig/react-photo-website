@@ -1,7 +1,7 @@
 import { BrowserRouter } from 'react-router-dom';
-import { Routes } from './routes';
+import { Routes } from '../Routes';
 
-import './index.sass';
+import './App.sass';
 
 export const App = () => (
   <BrowserRouter>

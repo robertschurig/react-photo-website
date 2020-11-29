@@ -5,7 +5,7 @@ import {
   faAngleRight,
 } from '@fortawesome/free-solid-svg-icons';
 
-import { useEventListener } from 'hooks/useEventlistener';
+import { useEventListener } from 'shared/hooks/useEventlistener';
 
 const ESCAPE_KEYS = ['27', 'Escape'];
 const ARROW_LEFT_KEYS = ['37', 'ArrowLeft'];

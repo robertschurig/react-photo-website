@@ -1,10 +1,7 @@
 import { Switch, Route } from 'react-router-dom';
 
-import { Home } from 'pages/Home';
-import { Header } from 'components/Header';
-import { Contact } from 'pages/Contact';
-import { Portraits } from 'pages/Portraits';
-import { Sports } from 'pages/Sports';
+import { Header } from 'core';
+import { Contact, Home, Portraits, Sports } from 'pages';
 
 export const Routes = () => (
   <>

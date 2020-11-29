@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import { ImageGrid } from 'shared/components/ImageGrid/ImageGrid';
-import { useFetch } from 'shared/hooks/useFetch';
+import { ImageGrid } from 'shared/components';
+import { useFetch } from 'shared/hooks';
 
 export const Home = () => {
   const [data] = useFetch('data/portraits.json');

@@ -1,4 +1,4 @@
-import { useFetch } from 'shared/hooks/useFetch';
+import { useFetch } from 'shared/hooks';
 
 export const Sports = () => {
   const [imageList] = useFetch('data/istaf-2016.json');

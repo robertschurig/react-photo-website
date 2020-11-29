@@ -1,5 +1,5 @@
-import { useFetch } from 'shared/hooks/useFetch';
-import { ImageGrid } from 'shared/components/ImageGrid/ImageGrid';
+import { useFetch } from 'shared/hooks';
+import { ImageGrid } from 'shared/components';
 
 export const Portraits = () => {
   const [data] = useFetch('data/portraits.json');

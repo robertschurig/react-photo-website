@@ -1,11 +1,16 @@
 import { Link, NavLink } from 'react-router-dom';
-import './Header.sass';
+import styles from './main-nav.module.css';
 
-export const Header = () => {
+// navbar-item is-uppercase navbar__title
+export const MainNav = () => {
   return (
-    <nav className="navbar" role="navigation" aria-label="main navigation">
-      <div className="navbar-brand">
-        <Link className="navbar-item is-uppercase navbar__title" to="/">
+    <nav
+      className={styles.navbar}
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div className={styles.navbarBrand}>
+        <Link className={styles.navbarBrandItem} to="/">
           Robert Schurig
         </Link>
 
@@ -16,26 +21,26 @@ export const Header = () => {
         </div>
       </div>
 
-      <div id="nav-menu" className="navbar-menu">
-        <div className="navbar-end">
+      <div id="nav-menu" className={styles.navbarMenu}>
+        <div className={styles.navbarEnd}>
           <NavLink
             to="/portraits"
             activeClassName="is-active"
-            className="navbar-item nav-menu__link"
+            className={styles.navbarItem}
           >
             Portraits
           </NavLink>
           <NavLink
             to="/sports"
             activeClassName="is-active"
-            className="navbar-item nav-menu__link"
+            className={styles.navbarItem}
           >
             Sports
           </NavLink>
           <NavLink
             to="/contact"
             activeClassName="is-active"
-            className="navbar-item nav-menu__link"
+            className={styles.navbarItem}
           >
             Contact
           </NavLink>

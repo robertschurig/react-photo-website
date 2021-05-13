@@ -6,6 +6,6 @@
   "semi": true,
   "useTabs": false,
   "tabWidth": 2,
-  "arrowParens": "avoid",
+  "arrowParens": "always",
   "multilineProps": true
 }

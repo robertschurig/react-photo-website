@@ -1,0 +1,180 @@
+.columns {
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+  margin-top: -0.75rem;
+  margin-bottom: -0.75rem;
+  flex-wrap: wrap;
+}
+
+.column {
+  display: block;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 0.75rem;
+}
+
+.galleryItem {
+  background-color: red;
+  border-radius: 0;
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 45%),
+    0 0 0 1px rgb(10 10 10 / 1%);
+  display: block;
+  padding: 0;
+}
+
+.image {
+  display: block;
+  position: relative;
+  padding-top: 133.3333%;
+  margin: 0;
+}
+.image img {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  opacity: 0;
+  background: #030303;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.overlay:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+@media screen and (min-width: 769px), print {
+  .columns {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .column {
+    flex: none;
+    width: 50%;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1024px) {
+  .column {
+    flex: none;
+    width: 33.3333%;
+  }
+}
+
+/* widescreen */
+@media screen and (min-width: 1216px) {
+}
+
+/* fullhd */
+@media screen and (min-width: 1408px) {
+}
+
+/* @import '../../../index.sass'
+
+.c-image-grid__item
+    &:hover
+        cursor: pointer
+    .overlay
+        position: absolute
+        top: 0
+        width: 100%
+        height: 100%
+        left: 0
+        z-index: 2
+        display: flex
+        justify-content: center
+        align-items: center
+
+.c-fade-out
+    opacity: 1
+    background-color: rgba(205, 207, 210, 0.25)
+    transition: background-color 0.4s ease-in-out
+    &:hover
+        background-color: transparent
+
+.c-image-grid__item2
+    &:hover
+        cursor: pointer
+    .overlay
+        position: absolute
+        top: 0
+        width: 100%
+        height: 100%
+        left: 0
+        background-color: rgba(205,207,210,0.25)
+        opacity: 1
+        &:hover
+            opacity: 0
+            transition: .25s opacity
+        .text
+            display: flex
+            justify-content: center
+            align-items: center
+            width: 100%
+            height: 100%
+            color: #ffffff
+            font-size: 40px
+            font-weight: 400
+            text-transform: uppercase
+            letter-spacing: 9px
+            text-shadow: 4px 3px rgba(0,0,0,0.1)
+
+.c-image-modal
+    &__content
+        width: 100%
+        height: 100%
+        margin: 15px
+        max-height: 100vh
+        overflow: auto
+        position: relative
+        display: flex
+        justify-content: center
+        align-items: center
+    &__img
+        max-width: 100%
+        max-height: 100%
+        user-select: none
+    &__nav
+        display: flex
+        position: absolute
+        margin: 0 auto
+        position: absolute
+        width: 100%
+        margin: 0 auto
+        height: 100%
+
+.c-image-modal-btn
+    display: flex
+    align-items: center
+    height: 100%
+    &__left
+        padding-left: 40px
+        .icon
+            &:hover
+                cursor: pointer
+                color: $light
+    &__right
+        padding-right: 40px
+        justify-content: flex-end
+        .icon
+            &:hover
+                cursor: pointer
+                color: $light */

@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
 
 import styles from './image-gallery.module.css';
+import { ImageModal } from './modal/image-modal';
 
 const ImageGalleryItem = ({ data, onClicked }) => (
   <div className={styles.galleryItem} onClick={() => onClicked(data.id)}>
@@ -26,18 +27,20 @@ export const ImageGallery = ({ imageList }) => {
       <div className={styles.columns}>
         {imageList.map((imageData) => (
           <div key={imageData.id} className={styles.column}>
-            <ImageGalleryItem data={imageData}></ImageGalleryItem>
+            <ImageGalleryItem
+              data={imageData}
+              onClicked={imageClickedHandler}
+            ></ImageGalleryItem>
           </div>
         ))}
       </div>
-    </div>
-  );
-};
-
-/* {selectedImageId && (
+      {selectedImageId && (
         <ImageModal
           selectedImageId={selectedImageId}
           imageList={imageList}
           onCloseClicked={imageOverlayCloseHandler}
         />
-      )} */
+      )}
+    </div>
+  );
+};

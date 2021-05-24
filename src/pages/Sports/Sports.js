@@ -6,7 +6,7 @@ import { FluidItem } from 'components/image-gallery/fluid-item';
 import { ImageModal } from 'components/image-gallery/modal/image-modal';
 
 export const Sports = () => {
-  const [imageList] = useFetch('data/istaf-2016.json');
+  const [imageList] = useFetch('images/istaf-2016/index.json');
   const [selectedImageId, setSelectedImageId] = useState();
 
   const imageClickedHandler = (id) => setSelectedImageId(id);

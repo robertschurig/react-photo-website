@@ -4,239 +4,239 @@
     "title": "Paulina",
     "dateCreated": "2020-02-14T15:23:57.000Z",
     "keywords": ["Paulina", "Portrait"],
-    "source": "data/portraits/paulina-20200214-30.jpg",
-    "thumb": "data/portraits/paulina-20200214-30_thumb.jpg"
+    "source": "images/portraits/paulina-20200214-30.jpg",
+    "thumb": "images/portraits/paulina-20200214-30_thumb.jpg"
   },
   {
     "id": "db15baa2f6d118e373c442b037588c90",
     "title": "Paulina",
     "dateCreated": "2020-02-14T14:47:11.000Z",
     "keywords": ["Paulina", "Portrait"],
-    "source": "data/portraits/paulina-20200214-29.jpg",
-    "thumb": "data/portraits/paulina-20200214-29_thumb.jpg"
+    "source": "images/portraits/paulina-20200214-29.jpg",
+    "thumb": "images/portraits/paulina-20200214-29_thumb.jpg"
   },
   {
     "id": "1b72ecf282dba93272c6cf147d3002db",
     "title": "Maria",
     "dateCreated": "2019-12-28T11:23:32.000Z",
     "keywords": ["Maria", "Portrait"],
-    "source": "data/portraits/maria-20191228-28.jpg",
-    "thumb": "data/portraits/maria-20191228-28_thumb.jpg"
+    "source": "images/portraits/maria-20191228-28.jpg",
+    "thumb": "images/portraits/maria-20191228-28_thumb.jpg"
   },
   {
     "id": "579ac1de4c8fad1d8287249bc557a7b0",
     "title": "Maria",
     "dateCreated": "2019-12-28T10:22:40.000Z",
     "keywords": ["Maria", "Portrait"],
-    "source": "data/portraits/maria-20191228-27.jpg",
-    "thumb": "data/portraits/maria-20191228-27_thumb.jpg"
+    "source": "images/portraits/maria-20191228-27.jpg",
+    "thumb": "images/portraits/maria-20191228-27_thumb.jpg"
   },
   {
     "id": "4a06b02187815acc7fd63c5b7ad6dd65",
     "title": "Maria",
     "dateCreated": "2019-12-28T10:05:39.000Z",
     "keywords": ["Maria", "Portrait"],
-    "source": "data/portraits/maria-20191228-26.jpg",
-    "thumb": "data/portraits/maria-20191228-26_thumb.jpg"
+    "source": "images/portraits/maria-20191228-26.jpg",
+    "thumb": "images/portraits/maria-20191228-26_thumb.jpg"
   },
   {
     "id": "03c64401ff722dd3cfe09209fead3497",
     "title": "Alice",
     "dateCreated": "2019-10-03T14:17:54.000Z",
     "keywords": ["Alice", "Portrait"],
-    "source": "data/portraits/alice-20191003-25.jpg",
-    "thumb": "data/portraits/alice-20191003-25_thumb.jpg"
+    "source": "images/portraits/alice-20191003-25.jpg",
+    "thumb": "images/portraits/alice-20191003-25_thumb.jpg"
   },
   {
     "id": "a661a8652fbef4d07c7444721021ed2f",
     "title": "Alice",
     "dateCreated": "2019-10-03T13:19:54.000Z",
     "keywords": ["Alice", "Portrait"],
-    "source": "data/portraits/alice-20191003-24.jpg",
-    "thumb": "data/portraits/alice-20191003-24_thumb.jpg"
+    "source": "images/portraits/alice-20191003-24.jpg",
+    "thumb": "images/portraits/alice-20191003-24_thumb.jpg"
   },
   {
     "id": "472eb50beffb4804f6541ac795105215",
     "title": "Vanessa",
     "dateCreated": "2019-09-01T15:27:17.000Z",
     "keywords": ["Portrait", "Vanessa"],
-    "source": "data/portraits/vanessa-20190901-23.jpg",
-    "thumb": "data/portraits/vanessa-20190901-23_thumb.jpg"
+    "source": "images/portraits/vanessa-20190901-23.jpg",
+    "thumb": "images/portraits/vanessa-20190901-23_thumb.jpg"
   },
   {
     "id": "c61624274a417c0f38f79b0022defd63",
     "title": "Vanessa",
     "dateCreated": "2019-09-01T15:05:34.000Z",
     "keywords": ["Portrait", "Vanessa"],
-    "source": "data/portraits/vanessa-20190901-22.jpg",
-    "thumb": "data/portraits/vanessa-20190901-22_thumb.jpg"
+    "source": "images/portraits/vanessa-20190901-22.jpg",
+    "thumb": "images/portraits/vanessa-20190901-22_thumb.jpg"
   },
   {
     "id": "23ac8e32e829caf29a94a7b794bd674d",
     "title": "Seline",
     "dateCreated": "2019-08-18T10:55:33.000Z",
     "keywords": ["Portrait", "Seline"],
-    "source": "data/portraits/seline-20190818-21.jpg",
-    "thumb": "data/portraits/seline-20190818-21_thumb.jpg"
+    "source": "images/portraits/seline-20190818-21.jpg",
+    "thumb": "images/portraits/seline-20190818-21_thumb.jpg"
   },
   {
     "id": "ea4f4b5486784bdd5de9eeca4626fbbd",
     "title": "Seline",
     "dateCreated": "2019-08-18T10:16:46.000Z",
     "keywords": ["Portrait", "Seline"],
-    "source": "data/portraits/seline-20190818-20.jpg",
-    "thumb": "data/portraits/seline-20190818-20_thumb.jpg"
+    "source": "images/portraits/seline-20190818-20.jpg",
+    "thumb": "images/portraits/seline-20190818-20_thumb.jpg"
   },
   {
     "id": "fce56da1aadf8d6c3bd373291108c034",
     "title": "Friederika",
     "dateCreated": "2019-05-31T10:12:48.000Z",
     "keywords": ["Portrait", "Sel"],
-    "source": "data/portraits/friederike-20190531-19.jpg",
-    "thumb": "data/portraits/friederike-20190531-19_thumb.jpg"
+    "source": "images/portraits/friederike-20190531-19.jpg",
+    "thumb": "images/portraits/friederike-20190531-19_thumb.jpg"
   },
   {
     "id": "dd7759d20972c2d44e8ef12de6160707",
     "title": "Maria",
     "dateCreated": "2019-04-22T10:25:30.000Z",
     "keywords": ["Maria", "Portrait"],
-    "source": "data/portraits/maria-20190422-18.jpg",
-    "thumb": "data/portraits/maria-20190422-18_thumb.jpg"
+    "source": "images/portraits/maria-20190422-18.jpg",
+    "thumb": "images/portraits/maria-20190422-18_thumb.jpg"
   },
   {
     "id": "5762831e878038422968378be5f68775",
     "title": "Maria",
     "dateCreated": "2019-04-22T10:24:14.000Z",
     "keywords": ["Maria", "Portrait"],
-    "source": "data/portraits/maria-20190422-17.jpg",
-    "thumb": "data/portraits/maria-20190422-17_thumb.jpg"
+    "source": "images/portraits/maria-20190422-17.jpg",
+    "thumb": "images/portraits/maria-20190422-17_thumb.jpg"
   },
   {
     "id": "0d65823073ea03af1cb7a0e1a0925d63",
     "title": "Vanessa",
     "dateCreated": "2019-03-08T16:19:30.000Z",
     "keywords": ["Portrait", "Vanessa"],
-    "source": "data/portraits/vanessa-20190308-16.jpg",
-    "thumb": "data/portraits/vanessa-20190308-16_thumb.jpg"
+    "source": "images/portraits/vanessa-20190308-16.jpg",
+    "thumb": "images/portraits/vanessa-20190308-16_thumb.jpg"
   },
   {
     "id": "c2ef22a44b8bb90787bc5e46ce098bac",
     "title": "Vanessa",
     "dateCreated": "2019-03-08T16:16:19.000Z",
     "keywords": ["Portrait", "Vanessa"],
-    "source": "data/portraits/vanessa-20190308-15.jpg",
-    "thumb": "data/portraits/vanessa-20190308-15_thumb.jpg"
+    "source": "images/portraits/vanessa-20190308-15.jpg",
+    "thumb": "images/portraits/vanessa-20190308-15_thumb.jpg"
   },
   {
     "id": "d05f0573c05fa4dff061580662afae2f",
     "title": "Vanessa",
     "dateCreated": "2019-03-08T16:15:36.000Z",
     "keywords": ["Portrait", "Vanessa"],
-    "source": "data/portraits/vanessa-20190308-14.jpg",
-    "thumb": "data/portraits/vanessa-20190308-14_thumb.jpg"
+    "source": "images/portraits/vanessa-20190308-14.jpg",
+    "thumb": "images/portraits/vanessa-20190308-14_thumb.jpg"
   },
   {
     "id": "1ac9ab0502909e5fb825a26439b6ccee",
     "title": "Ole",
     "dateCreated": "2019-02-16T14:28:41.000Z",
     "keywords": ["Ole", "Portrait"],
-    "source": "data/portraits/ole-20190216-13.jpg",
-    "thumb": "data/portraits/ole-20190216-13_thumb.jpg"
+    "source": "images/portraits/ole-20190216-13.jpg",
+    "thumb": "images/portraits/ole-20190216-13_thumb.jpg"
   },
   {
     "id": "ac4441877e982c7692e618372d623614",
     "title": "Ole",
     "dateCreated": "2019-02-16T14:28:32.000Z",
     "keywords": ["Ole", "Portrait"],
-    "source": "data/portraits/ole-20190216-12.jpg",
-    "thumb": "data/portraits/ole-20190216-12_thumb.jpg"
+    "source": "images/portraits/ole-20190216-12.jpg",
+    "thumb": "images/portraits/ole-20190216-12_thumb.jpg"
   },
   {
     "id": "93297ee4a08c266e8fd8cb07c9a3fa2e",
     "title": "Michelle",
     "dateCreated": "2019-01-12T15:01:00.000Z",
     "keywords": ["Michelle", "Portrait"],
-    "source": "data/portraits/michelle-20190112-11.jpg",
-    "thumb": "data/portraits/michelle-20190112-11_thumb.jpg"
+    "source": "images/portraits/michelle-20190112-11.jpg",
+    "thumb": "images/portraits/michelle-20190112-11_thumb.jpg"
   },
   {
     "id": "073fc14fb736e255867b84b191620d25",
     "title": "Michelle",
     "dateCreated": "2019-01-12T14:01:31.000Z",
     "keywords": ["Michelle", "Portrait"],
-    "source": "data/portraits/michelle-20190112-10.jpg",
-    "thumb": "data/portraits/michelle-20190112-10_thumb.jpg"
+    "source": "images/portraits/michelle-20190112-10.jpg",
+    "thumb": "images/portraits/michelle-20190112-10_thumb.jpg"
   },
   {
     "id": "15445c7f68c69056f0e2f8fbdd94aca3",
     "title": "Michelle",
     "dateCreated": "2019-01-12T13:40:06.000Z",
     "keywords": ["Michelle", "Portrait"],
-    "source": "data/portraits/michelle-20190112-09.jpg",
-    "thumb": "data/portraits/michelle-20190112-09_thumb.jpg"
+    "source": "images/portraits/michelle-20190112-09.jpg",
+    "thumb": "images/portraits/michelle-20190112-09_thumb.jpg"
   },
   {
     "id": "256fd3c40fa3ec63a402ace4f5f683d5",
     "title": "Patrizia",
     "dateCreated": "2018-07-04T15:44:34.000Z",
     "keywords": ["Patrizia", "Portrait"],
-    "source": "data/portraits/patrizia-20180704-08.jpg",
-    "thumb": "data/portraits/patrizia-20180704-08_thumb.jpg"
+    "source": "images/portraits/patrizia-20180704-08.jpg",
+    "thumb": "images/portraits/patrizia-20180704-08_thumb.jpg"
   },
   {
     "id": "967013172be5351f0027ac72aa7c5fcb",
     "title": "Vanessa",
     "dateCreated": "2018-06-16T15:40:45.000Z",
     "keywords": ["Portrait", "Vanessa"],
-    "source": "data/portraits/vanessa-20180616-07.jpg",
-    "thumb": "data/portraits/vanessa-20180616-07_thumb.jpg"
+    "source": "images/portraits/vanessa-20180616-07.jpg",
+    "thumb": "images/portraits/vanessa-20180616-07_thumb.jpg"
   },
   {
     "id": "548abb92b037524f17a33ab473f1fd14",
     "title": "Kira",
     "dateCreated": "2018-05-18T12:49:52.000Z",
     "keywords": ["Kira", "Portrait"],
-    "source": "data/portraits/kira-20180518-06.jpg",
-    "thumb": "data/portraits/kira-20180518-06_thumb.jpg"
+    "source": "images/portraits/kira-20180518-06.jpg",
+    "thumb": "images/portraits/kira-20180518-06_thumb.jpg"
   },
   {
     "id": "bc1ee658cad46ac1c835a0e869a26536",
     "title": "Kira",
     "dateCreated": "2018-05-18T12:40:15.000Z",
     "keywords": ["Kira", "Portrait"],
-    "source": "data/portraits/kira-20180518-05.jpg",
-    "thumb": "data/portraits/kira-20180518-05_thumb.jpg"
+    "source": "images/portraits/kira-20180518-05.jpg",
+    "thumb": "images/portraits/kira-20180518-05_thumb.jpg"
   },
   {
     "id": "a2ab7a74cca4847d8ea94690614233f0",
     "title": "Kira",
     "dateCreated": "2018-05-18T11:15:14.000Z",
     "keywords": ["Kira", "Portrait"],
-    "source": "data/portraits/kira-20180518-04.jpg",
-    "thumb": "data/portraits/kira-20180518-04_thumb.jpg"
+    "source": "images/portraits/kira-20180518-04.jpg",
+    "thumb": "images/portraits/kira-20180518-04_thumb.jpg"
   },
   {
     "id": "284d2c96d30e86c7721a01e38e885969",
     "title": "Kira",
     "dateCreated": "2018-05-18T10:45:19.000Z",
     "keywords": ["Kira", "Portrait"],
-    "source": "data/portraits/kira-20180518-03.jpg",
-    "thumb": "data/portraits/kira-20180518-03_thumb.jpg"
+    "source": "images/portraits/kira-20180518-03.jpg",
+    "thumb": "images/portraits/kira-20180518-03_thumb.jpg"
   },
   {
     "id": "a4acc7194df4d885aa4290866c73d63f",
     "title": "Maria",
     "dateCreated": "2018-04-03T09:31:20.000Z",
     "keywords": ["Maria", "Portrait"],
-    "source": "data/portraits/maria-20180403-02.jpg",
-    "thumb": "data/portraits/maria-20180403-02_thumb.jpg"
+    "source": "images/portraits/maria-20180403-02.jpg",
+    "thumb": "images/portraits/maria-20180403-02_thumb.jpg"
   },
   {
     "id": "dfda1c1cfacf542839e8977ceb7fcb7a",
     "title": "Maria",
     "dateCreated": "2018-04-03T09:27:02.000Z",
     "keywords": ["Maria", "Portrait"],
-    "source": "data/portraits/maria-20180403-01.jpg",
-    "thumb": "data/portraits/maria-20180403-01_thumb.jpg"
+    "source": "images/portraits/maria-20180403-01.jpg",
+    "thumb": "images/portraits/maria-20180403-01_thumb.jpg"
   }
 ]

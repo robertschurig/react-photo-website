@@ -7,7 +7,7 @@ import { ImageModal } from 'components/image-gallery/modal/image-modal';
 export const Home = () => {
   const [selectedImageId, setSelectedImageId] = useState();
   const [items, setItems] = useState();
-  const [data] = useFetch('data/portraits.json');
+  const [data] = useFetch('images/portraits/index.json');
 
   const imageClickedHandler = (id) => setSelectedImageId(id);
   const imageOverlayCloseHandler = () => setSelectedImageId(null);

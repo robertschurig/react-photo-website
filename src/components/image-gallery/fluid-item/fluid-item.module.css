@@ -14,14 +14,16 @@
 .caption {
   position: absolute;
   color: white;
+  background-color: dodgerblue;
+  left: 0;
   bottom: 20px;
-  left: 10px;
-  width: 100%;
+  padding: 0 10px;
+  letter-spacing: 0.6px;
 }
 
 @media screen and (min-width: 769px), print {
   .item {
-    height: 40vh;
+    height: 200px;
     flex-grow: 1;
   }
 

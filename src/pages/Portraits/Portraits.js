@@ -5,7 +5,7 @@ import { PortraitItem } from 'components/image-gallery/portrait-item';
 import { ImageModal } from 'components/image-gallery/modal/image-modal';
 
 export const Portraits = () => {
-  const [data] = useFetch('data/portraits.json');
+  const [data] = useFetch('images/portraits/index.json');
   const [selectedImageId, setSelectedImageId] = useState();
 
   const imageClickedHandler = (id) => setSelectedImageId(id);

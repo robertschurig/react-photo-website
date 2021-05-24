@@ -1,0 +1,66 @@
+.container {
+  display: block;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 0.75rem;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    flex: none;
+    width: 50%;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1024px) {
+  .container {
+    flex: none;
+    width: 33.3333%;
+  }
+}
+
+/* widescreen */
+@media screen and (min-width: 1216px) {
+}
+
+/* fullhd */
+@media screen and (min-width: 1408px) {
+}
+
+.image {
+  display: block;
+  position: relative;
+  padding-top: 133.3333%;
+  margin: 0;
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 45%),
+    0 0 0 1px rgb(10 10 10 / 1%);
+}
+.image img {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  opacity: 0;
+  background: #030303;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.overlay:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}

@@ -1,46 +1,9 @@
-import { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlus } from '@fortawesome/free-solid-svg-icons';
-
 import styles from './image-gallery.module.css';
-import { ImageModal } from './modal/image-modal';
 
-const ImageGalleryItem = ({ data, onClicked }) => (
-  <div className={styles.galleryItem} onClick={() => onClicked(data.id)}>
-    <figure className={styles.image}>
-      <img src={data.source} alt="" />
-      <div className={styles.overlay}>
-        <FontAwesomeIcon icon={faPlus} size="3x" />
-      </div>
-    </figure>
-  </div>
-);
-
-export const ImageGallery = ({ imageList }) => {
-  const [selectedImageId, setSelectedImageId] = useState();
-
-  const imageClickedHandler = (id) => setSelectedImageId(id);
-  const imageOverlayCloseHandler = () => setSelectedImageId(null);
-
+export const ImageGallery = ({ children, isFluid }) => {
   return (
-    <div>
-      <div className={styles.columns}>
-        {imageList.map((imageData) => (
-          <div key={imageData.id} className={styles.column}>
-            <ImageGalleryItem
-              data={imageData}
-              onClicked={imageClickedHandler}
-            ></ImageGalleryItem>
-          </div>
-        ))}
-      </div>
-      {selectedImageId && (
-        <ImageModal
-          selectedImageId={selectedImageId}
-          imageList={imageList}
-          onCloseClicked={imageOverlayCloseHandler}
-        />
-      )}
+    <div className={isFluid ? styles.containerFluid : styles.container}>
+      {children}
     </div>
   );
 };

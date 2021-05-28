@@ -1,19 +1,10 @@
-.containerFluid {
-  display: block;
-}
-
-.container {
-  display: block;
-  margin-left: -0.75rem;
-  margin-right: -0.75rem;
-  margin-top: -0.75rem;
-  margin-bottom: -0.75rem;
+.grid {
+  display: grid;
+  grid-gap: 1rem;
 }
 
 @media screen and (min-width: 769px), print {
-  .container,
-  .containerFluid {
-    flex-wrap: wrap;
-    display: flex;
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 }

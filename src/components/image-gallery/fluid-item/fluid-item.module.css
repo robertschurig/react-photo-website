@@ -1,5 +1,7 @@
+.card {
+}
+
 .item {
-  display: block;
   position: relative;
   cursor: pointer;
 }
@@ -19,15 +21,4 @@
   bottom: 20px;
   padding: 0 10px;
   letter-spacing: 0.6px;
-}
-
-@media screen and (min-width: 769px), print {
-  .item {
-    height: 200px;
-    flex-grow: 1;
-  }
-
-  .item:last-child {
-    flex-grow: 10;
-  }
 }

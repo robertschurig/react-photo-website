@@ -16,9 +16,9 @@ export const App = () => (
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/portraits" component={Portraits} />
           <Route exact path="/sports" component={Sports} />
-          {/* <Route component={NotFoundPage} /> */}
         </Switch>
       </main>
+      <footer>C</footer>
     </div>
   </BrowserRouter>
 );

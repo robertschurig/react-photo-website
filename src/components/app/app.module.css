@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  height: 100%;
+}
+
+main {
+  margin: 15px 0;
+  flex-grow: 1;
+}
+
+footer {
+  background-color: lightseagreen;
+}
+
+header,
+main,
+footer {
+  flex-shrink: 0;
+}
+
+/* desktop */
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+/* widescreen */
+@media screen and (min-width: 1216px) {
+  .container {
+    max-width: 1152px;
+  }
+}
+
+/* fullhd */
+@media screen and (min-width: 1408px) {
+  .container {
+    max-width: 1344px;
+  }
+}

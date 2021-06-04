@@ -1,6 +1,6 @@
+import { App } from 'components/app';
 import ReactDOM from 'react-dom';
 
-import { App } from 'core';
-import './index.sass';
+import './index.css';
 
 ReactDOM.render(<App />, document.getElementById('photo-portfolio'));

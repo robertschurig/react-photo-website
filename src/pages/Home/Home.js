@@ -13,7 +13,7 @@ export const Home = () => {
   const imageOverlayCloseHandler = () => setSelectedImageId(null);
 
   useEffect(() => {
-    const items = data.slice(0, 6);
+    const items = data.slice(0, 8);
     setItems(items);
   }, [data]);
 

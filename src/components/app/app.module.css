@@ -1,3 +1,6 @@
+@value breakpoints: './../../breakpoints.css';
+@value tablet-up, desktop-up, widescreen-up, fullhd-up from breakpoints;
+
 .container {
   display: flex;
   flex-direction: column;
@@ -16,23 +19,26 @@ footer {
   flex-shrink: 0;
 }
 
-/* desktop */
-@media screen and (min-width: 1024px) {
+@media screen and (tablet-up) {
   .container {
-    max-width: 960px;
+    max-width: 769px;
   }
 }
 
-/* widescreen */
-@media screen and (min-width: 1216px) {
+@media screen and (desktop-up) {
   .container {
-    max-width: 1152px;
+    max-width: 1024px;
   }
 }
 
-/* fullhd */
-@media screen and (min-width: 1408px) {
+@media screen and (widescreen-up) {
   .container {
-    max-width: 1344px;
+    max-width: 1216px;
+  }
+}
+
+@media screen and (fullhd-up) {
+  .container {
+    max-width: 1408px;
   }
 }

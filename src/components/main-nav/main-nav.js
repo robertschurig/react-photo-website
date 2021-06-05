@@ -10,7 +10,7 @@ export const MainNav = () => {
       aria-label="main navigation"
     >
       <div className={styles.navbarBrand}>
-        <Link className={styles.navbarBrandItem} to="/">
+        <Link className={styles.navbarBrandLink} to="/">
           Robert Schurig
         </Link>
 

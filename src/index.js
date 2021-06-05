@@ -3,4 +3,4 @@ import ReactDOM from 'react-dom';
 
 import './index.css';
 
-ReactDOM.render(<App />, document.getElementById('photo-portfolio'));
+ReactDOM.render(<App />, document.getElementById('appMountPoint'));

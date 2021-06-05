@@ -18,7 +18,6 @@ export const App = () => (
           <Route exact path="/sports" component={Sports} />
         </Switch>
       </main>
-      <footer>C</footer>
     </div>
   </BrowserRouter>
 );

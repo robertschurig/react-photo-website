@@ -8,16 +8,12 @@
   display: flex;
   flex-shrink: 0;
   min-height: 3.25rem;
-  margin-left: -0.75rem;
 }
 
-.navbarBrandItem {
-  color: #4a4a4a;
+.navbarBrandLink {
   display: block;
   line-height: 1.5;
-  padding: 0.5rem 0.75rem;
   position: relative;
-
   text-transform: uppercase;
   font-size: 2rem;
   font-weight: 300;
@@ -25,20 +21,21 @@
 }
 
 .navbarItem {
-  color: #4a4a4a;
   display: block;
   line-height: 1.5;
-  padding: 0.5rem 0.75rem;
   position: relative;
-
+  padding: 0.5rem 0.3rem;
   margin: 0;
+  letter-spacing: 1.5px;
   font-size: 20px;
   align-self: flex-end;
+}
+.navbarItem:last-child {
+  padding-right: 0;
 }
 
 .navbarMenu {
   display: none;
-  margin-right: -0.75rem;
 }
 
 @media screen and (min-width: 1024px) {
@@ -64,19 +61,3 @@
     margin-left: auto;
   }
 }
-
-/* @import '../../index.sass'
-@import '~bulma/sass/utilities/mixins'
-
-.navbar__title
-  font-size: 2rem
-  font-weight: 300
-  margin: 0
-  padding: 0
-
-.nav-menu__link
-  margin: 0
-  padding: 0
-  font-size: 20px
-  padding: 0 0.4rem
-  align-self: flex-end */

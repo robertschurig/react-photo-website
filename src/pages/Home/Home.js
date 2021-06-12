@@ -25,7 +25,7 @@ export const Home = () => {
             <PortraitItem
               key={imageData.id}
               data={imageData}
-              onClicked={imageClickedHandler}
+              onSelected={imageClickedHandler}
             />
           ))}
         </ImageGallery>

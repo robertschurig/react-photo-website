@@ -20,7 +20,7 @@ export const Sports = () => {
             <FluidItem
               key={imageData.id}
               data={imageData}
-              onClicked={imageClickedHandler}
+              onSelected={imageClickedHandler}
             />
           ))}
         </ImageGallery>

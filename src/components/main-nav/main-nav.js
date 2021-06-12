@@ -25,21 +25,21 @@ export const MainNav = () => {
         <div className={styles.navbarEnd}>
           <NavLink
             to="/portraits"
-            activeClassName="is-active"
+            activeClassName={styles.navbarItemIsActive}
             className={styles.navbarItem}
           >
             Portraits
           </NavLink>
           <NavLink
             to="/sports"
-            activeClassName="is-active"
+            activeClassName={styles.navbarItemIsActive}
             className={styles.navbarItem}
           >
             Sports
           </NavLink>
           <NavLink
             to="/contact"
-            activeClassName="is-active"
+            activeClassName={styles.navbarItemIsActive}
             className={styles.navbarItem}
           >
             Contact

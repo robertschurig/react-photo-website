@@ -36,6 +36,10 @@
   padding-right: 0;
 }
 
+.navbarItemIsActive {
+  color: var(--s-link-color-active);
+}
+
 .navbarMenu {
   display: none;
 }

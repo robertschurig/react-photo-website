@@ -17,7 +17,7 @@
 }
 
 .background {
-  background-color: var(--rp-lightbox-bg-color);
+  background-color: var(--s-image-lightbox-bg-color, fuchsia);
   bottom: 0;
   left: 0;
   position: absolute;
@@ -56,7 +56,7 @@
   display: block;
   width: 50%;
   cursor: pointer;
-  color: var(--rp-lightbox-nav-btn-color);
+  color: var(--s-link-color, fuchsia);
 }
 
 .navButton .leftIcon {
@@ -75,8 +75,10 @@
   padding-right: 40px;
 }
 .navButton .rightIcon:hover,
-.navButton .leftIcon:hover {
-  color: var(--rp-lightbox-nav-btn-hover-color);
+.navButton .leftIcon:hover,
+.navButton .rightIcon:focus,
+.navButton .leftIcon:focus {
+  color: var(--s-link-color-hover, fuchsia);
 }
 
 .closeButton {
@@ -93,7 +95,6 @@
   flex-grow: 0;
   flex-shrink: 0;
   font-size: 0;
-  outline: none;
   vertical-align: top;
 
   height: 32px;
@@ -106,7 +107,7 @@
 
 .closeButton::before,
 .closeButton::after {
-  background-color: var(--rp-lightbox-nav-btn-color);
+  background-color: var(--s-link-color, fuchsia);
   content: '';
   display: block;
   left: 50%;
@@ -118,12 +119,12 @@
 
 .closeButton:hover::before,
 .closeButton:hover::after {
-  background-color: var(--rp-lightbox-nav-btn-hover-color);
+  background-color: var(--s-link-color-hover, fuchsia);
 }
 
 .closeButton:hover,
 .closeButton:focus {
-  background-color: rgba(10, 10, 10, 0.3);
+  background-color: var(--s-image-lightbox-close-button-bg-color, fuchsia);
 }
 
 .closeButton::before {

@@ -66,12 +66,24 @@ export const ImageModal = (props) => {
         <img className={styles.image} src={currentImage.source} alt="" />
       </div>
       <div className={styles.nav}>
-        <div className={styles.navButton} onClick={prevImage}>
+        <div
+          role="button"
+          tabIndex={0}
+          className={styles.navButton}
+          onClick={prevImage}
+          onKeyPress={prevImage}
+        >
           <span className={styles.leftIcon}>
             <FontAwesomeIcon icon={faAngleLeft} size="3x" />
           </span>
         </div>
-        <div className={styles.navButton} onClick={nextImage}>
+        <div
+          role="button"
+          tabIndex={0}
+          className={styles.navButton}
+          onClick={nextImage}
+          onKeyPress={nextImage}
+        >
           <span className={styles.rightIcon}>
             <FontAwesomeIcon icon={faAngleRight} size="3x" />
           </span>

@@ -15,7 +15,9 @@ export const ImageModal = (props) => {
   const { imageList, selectedImageId, onCloseClicked } = props;
   const isActive = selectedImageId !== undefined && selectedImageId !== null;
 
-  const keydownHandler = ({ key }) => {
+  const keydownHandler = (event) => {
+    event.preventDefault();
+    const { key } = event;
     const keyValue = String(key);
 
     if (ESCAPE_KEYS.includes(keyValue)) {

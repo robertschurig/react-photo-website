@@ -4,11 +4,13 @@ import styles from './portrait-item.module.css';
 
 export const PortraitItem = ({ data, onClicked }) => (
   <div className={styles.card}>
-    <figure className={styles.image}>
-      <img src={data.source} alt="image_2" loading="lazy" />
-    </figure>
+    <div className={styles.image}>
+      <img src={data.source} alt="image_2" aria-hidden="true" loading="lazy" />
+    </div>
     <div
       role="button"
+      aria-pressed="false"
+      aria-label="opens image in lightbox"
       tabIndex={0}
       className={styles.overlay}
       onClick={() => onClicked(data.id)}

@@ -1,15 +1,13 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import { Contact, Home, Portraits, Sports } from 'pages';
-import { MainNav } from 'components/main-nav';
+import { Header } from 'components/header';
 import styles from './app.module.css';
 
 export const App = () => (
   <BrowserRouter>
     <div className={styles.container}>
-      <header>
-        <MainNav />
-      </header>
+      <Header />
       <main>
         <Switch>
           <Route exact path="/" component={Home} />

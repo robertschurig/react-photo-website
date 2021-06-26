@@ -2,21 +2,11 @@
 @value tablet-up, desktop-up, widescreen-up, fullhd-up from breakpoints;
 
 .container {
-  display: flex;
-  flex-direction: column;
   margin: 0 auto;
-  height: 100%;
 }
 
 main {
   margin: 15px 0;
-  flex-grow: 1;
-}
-
-header,
-main,
-footer {
-  flex-shrink: 0;
 }
 
 @media screen and (tablet-up) {

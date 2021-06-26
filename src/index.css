@@ -54,10 +54,36 @@ textarea {
     'Helvetica', 'Arial', sans-serif;
 }
 
+html {
+  min-width: 300px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1em;
+  font-weight: 200;
+  line-height: 1.5;
+}
+
 img,
 video {
   height: auto;
   max-width: 100%;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+  box-shadow: none;
 }
 
 /* variables */
@@ -96,34 +122,13 @@ video {
   --s-link-color-focus: var(--s-color-accent-300-alpha-5);
 }
 
-html {
-  font-size: 16px;
-  min-width: 300px;
-  overflow-x: hidden;
-  overflow-y: scroll;
-  text-rendering: optimizeLegibility;
-  text-size-adjust: 100%;
-  box-sizing: border-box;
-}
-
 body {
   color: var(--s-text-color, fuchsia);
   background-color: var(--s-bg-color, fuchsia);
-  font-size: 1em;
-  font-weight: 200;
-  line-height: 1.5;
-}
-
-html,
-body,
-.appContainer {
-  height: 100%;
 }
 
 a {
   color: var(--s-link-color, fuchsia);
-  cursor: pointer;
-  text-decoration: none;
 }
 
 a:hover,
@@ -131,18 +136,18 @@ a:focus {
   color: var(--s-link-color-hover, fuchsia);
 }
 
-a:focus {
-  outline: none;
+/* show only for keyboard */
+a:focus-visible {
   box-shadow: 0 0 0 1px var(--s-link-color-focus, fuchsia);
 }
 
 a:active {
-  outline: none;
-  box-shadow: none;
   color: var(--s-link-color-active, fuchsia);
 }
 
-img {
-  height: auto;
-  max-width: 100%;
+button:active,
+button:focus-visible,
+[role='button'][aria-pressed='true'] {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--s-link-color-focus, fuchsia);
 }

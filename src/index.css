@@ -80,12 +80,6 @@ a {
   text-decoration: none;
 }
 
-a:focus,
-a:active {
-  outline: none;
-  box-shadow: none;
-}
-
 /* variables */
 :root {
   --s-color-neutral-100: #f2f2f2;
@@ -136,18 +130,22 @@ a:focus {
   color: var(--s-link-color-hover, fuchsia);
 }
 
-/* show only for keyboard */
-a:focus-visible {
-  box-shadow: 0 0 0 1px var(--s-link-color-focus, fuchsia);
-}
-
 a:active {
   color: var(--s-link-color-active, fuchsia);
 }
 
-button:active,
-button:focus-visible,
-[role='button'][aria-pressed='true'] {
+a:focus,
+button:focus {
+  box-shadow: none;
   outline: none;
+}
+
+a:focus-visible,
+button:focus-visible {
   box-shadow: 0 0 0 3px var(--s-link-color-focus, fuchsia);
+  outline: none;
+}
+
+#appMountPoint {
+  outline: none;
 }

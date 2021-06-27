@@ -12,11 +12,9 @@ export const Header = () => {
   return (
     <header className={styles.container}>
       <div className={styles.brand}>
-        <h1>
-          <Link className={styles.brandlink} to="/">
-            Robert Schurig
-          </Link>
-        </h1>
+        <Link className={styles.brandlink} to="/">
+          Robert Schurig
+        </Link>
         <Hamburger isActive={isActive} onClick={() => setIsActive(!isActive)} />
       </div>
       <NavBar isActive={isActive} onItemClick={() => setIsActive(false)} />

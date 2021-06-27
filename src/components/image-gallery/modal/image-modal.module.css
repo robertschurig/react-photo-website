@@ -57,6 +57,7 @@
   width: 50%;
   cursor: pointer;
   color: var(--s-link-color, fuchsia);
+  outline: none;
 }
 
 .navButton .leftIcon {

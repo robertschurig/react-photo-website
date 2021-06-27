@@ -23,7 +23,6 @@ export const PortraitItem = ({ data, onSelected }) => {
       </div>
       <div
         role="button"
-        aria-pressed="false"
         aria-label="opens image in lightbox"
         tabIndex={0}
         className={styles.overlay}

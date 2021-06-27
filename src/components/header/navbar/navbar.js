@@ -8,7 +8,7 @@ export const NavBar = ({ isActive, onItemClick }) => {
       aria-label="Primary"
       className={isActive ? styles.navIsActive : styles.nav}
     >
-      <ul className={styles.menu}>
+      <ul className={styles.menu} aria-label="website pages">
         <li>
           <NavLink
             to="/portraits"

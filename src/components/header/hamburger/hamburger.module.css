@@ -1,29 +1,26 @@
 @value desktop-up from './../../../breakpoints.css';
 
 .hamburger {
-  padding: 5px 5px;
+  height: 30px;
+  width: 30px;
+  padding: 4px 4px;
   display: inline-block;
   cursor: pointer;
-  transition-property: opacity, filter;
-  transition-duration: 0.15s;
-  transition-timing-function: linear;
-  font: inherit;
   text-transform: none;
   background-color: var(--s-color-neutral-400);
   border: 0;
   margin: 0;
-  margin-left: auto;
   overflow: visible;
 }
 
 .hamburger:hover,
 .hamburgerActive:hover {
-  opacity: 0.7;
+  background-color: var(--s-color-neutral-300);
 }
 
 .hamburgerBox {
-  width: 25px;
-  height: 6px;
+  width: 20px;
+  height: 20px;
   display: inline-block;
   position: relative;
 }
@@ -31,18 +28,14 @@
 .hamburgerContent {
   display: block;
   top: 50%;
-  margin-top: -4px;
 }
 .hamburgerContent,
 .hamburgerContent::before,
 .hamburgerContent::after {
-  width: 25px;
-  height: 4px;
+  width: 20px;
+  height: 3px;
   background-color: #000;
   position: absolute;
-  transition-property: transform;
-  transition-duration: 0.15s;
-  transition-timing-function: ease;
 }
 .hamburgerContent::before,
 .hamburgerContent::after {
@@ -50,10 +43,10 @@
   display: block;
 }
 .hamburgerContent::before {
-  top: -8px;
+  top: -6px;
 }
 .hamburgerContent::after {
-  bottom: -8px;
+  bottom: -6px;
 }
 
 .hamburgerContent {
@@ -77,10 +70,10 @@
 }
 
 .hamburgerContentActive::before {
-  transform: translate3d(0, 8px, 0) rotate(45deg);
+  transform: translateX(0) translateY(6px) translateZ(0) rotate(45deg);
 }
 .hamburgerContentActive::after {
-  transform: translate3d(0, -8px, 0) rotate(-45deg);
+  transform: translateX(0) translateY(-6px) translateZ(0) rotate(-45deg);
 }
 
 @media screen and (desktop-up) {

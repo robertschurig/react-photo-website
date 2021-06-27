@@ -1,14 +1,16 @@
 @value desktop-up from './../../breakpoints.css';
 
 .container {
-  margin-top: 25px;
+  margin-top: 5px;
   display: flex;
   flex-direction: column;
 }
 
 .brand {
   display: flex;
-  align-items: flex-end;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
 }
 
 .brandlink {
@@ -21,16 +23,9 @@
   margin: 0;
 }
 
-.mobileBtn {
-  margin-left: auto;
-}
-
 @media screen and (desktop-up) {
   .container {
+    margin-top: 25px;
     flex-direction: row;
-  }
-
-  .mobileBtn {
-    display: none;
   }
 }
